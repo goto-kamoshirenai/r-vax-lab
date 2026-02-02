@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Docker
+.docker/
+
+# Data (ここが重要)
+*.pdf
+*.png
+*.jpg
+*.dxf
+output/
+
+# Editor
+.vscode/
+.cursor/
