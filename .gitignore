@@ -9,10 +9,10 @@ venv/
 .docker/
 
 # Data (ここが重要)
-*.pdf
-*.png
-*.jpg
-*.dxf
+data/*.pdf
+data/*.png
+data/*.jpg
+data/*.dxf
 output/
 
 # Editor
