@@ -1,3 +1,5 @@
+# docker compose exec backend python LSD-1.py
+
 import cv2
 import ezdxf
 import numpy as np
@@ -47,8 +49,8 @@ def extract_lines_to_dxf(image_path, output_path):
 
 if __name__ == "__main__":
     # パス設定（dataフォルダに画像を置いてください）
-    INPUT_IMG = "data/test_drawing.png"
-    OUTPUT_DXF = "data/result.dxf"
+    INPUT_IMG = "data/input/test_drawing.png"
+    OUTPUT_DXF = "data/output/lsd-1.dxf"
     
     if not os.path.exists("data"):
         os.makedirs("data")

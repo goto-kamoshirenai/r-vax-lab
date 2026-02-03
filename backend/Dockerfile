@@ -18,4 +18,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # コンテナ単体で動かすために記述しておきます
 COPY . .
 
-CMD ["python", "main.py"]
+CMD ["python", "LSD-1.py"]
