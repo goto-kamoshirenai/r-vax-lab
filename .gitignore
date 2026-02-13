@@ -8,12 +8,12 @@ venv/
 # Docker
 .docker/
 
-# Data (ここが重要)
-data/*.pdf
-data/*.png
-data/*.jpg
-data/*.dxf
-output/
+# Data (入出力ファイルは除外、.gitkeepは追跡)
+data/**/*.pdf
+data/**/*.png
+data/**/*.jpg
+data/**/*.dxf
+!data/**/.gitkeep
 
 # Editor
 .vscode/
